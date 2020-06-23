@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Main area  */
+#registrationForm {
+
+  border: 1px solid #ddd;
+  margin: 20px 0;
+  box-shadow: 5px 10px 10px 10px #ddd;
+}
+
+/*------------------ Left side ---------------------*/
+
+
+.col-md-7 {
+  background-color: #ebebeb;
+}
+
+
+.col-md-7 .container {
+  margin-top: 200px;
+}
+
+/* Title */
+.col-md-7 .left-title {
+  font-size: 22px;
+  padding: 0 0 22px 48px;
+}
+
+/* Branding */
+.col-md-7 .branding {
+  margin-left: 20px;
+  display: flex;
+}
+
+/* logo padding */
+.col-md-7 img {
+  padding-right: 0;
+}
+
+
+.col-md-7 p{
+  margin: 8px 0 0 25px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/*--------x--------- Left side --------x------------*/
+
+
+/*--------------- Form Section---------------------- */
+
+#registrationForm .col-md-5 {
+  background-color: #fff;
+}
+
+#register-form {
+  margin: 0 20px 20px 40px;
+}
+
+/* Title */
+#register-form h3 {
+  margin: 16px 0 0 0;
+}
+
+
+/* All form label */
+
+#registrationForm label {
+  font-size: 15px;
+}
+
+/* All Input */
+
+#registrationForm .form-control {
+  background: none;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #ddd;
+  font-size: 14px;
+}
+
+#registrationForm .btn{
+  background-color: #01a3a4;
+  width: 116px;
+  border-radius: 20px;
+  height: 42px;
+}
+
+#registrationForm .btn:hover{
+  background-color: #048383;
+}
+
+#login-here {
+  margin: 0;
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+#login-here a{
+  margin-left: 6px;
+  text-decoration: none;
+  color: #01a3a4;
+}
+
+#login-here a:hover{
+  color: #048383;
+}
+
+
+/* for small screen */
+
+@media (max-width:600px) {
+  .col-md-7 {
+    display: none;
+  }
+}
